@@ -3,7 +3,7 @@ body {
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
+    font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     color: #333;
@@ -16,13 +16,16 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
-
-h1 {
-    color:pink;
-}
 h2 {
     color: #d268d9;
 }
-<style>
-@import url('https://fonts.googleapis.com/css?family=Oswald');
-</style> 
+h3 {
+    color: #d2c9df;
+}
+h1{
+    background-color: #f5c9df;
+}
+body {
+    background-color: #d2c9df;
+    opacity: 0.5;
+}
