@@ -16,15 +16,34 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
-h2 {
-    color: #d268d9;
-}
-h3 {
-    color: #817298;
+
+body {
+    background-color: #d2c9df;
+    font-family: oswald light;
+    font-size: 12pt;
 }
 h1{
     color: #85677d;
+    text-align: center;
 }
-body {
-    background-color: #d2c9df;
+
+h2{
+    color: #d268d9;
+    text-align: center;
+}
+h3 {
+    color: #817298;
+    font-style: italic;
+}
+th {
+    font-style: italic;
+}
+a{
+    cursor:move;
+}
+form{
+    color: #817298;
+}
+p {
+    color:red;
 }
