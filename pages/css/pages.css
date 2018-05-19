@@ -21,6 +21,7 @@ body {
     background-color: #d2c9df;
     font-family: oswald light;
     font-size: 12pt;
+    text-align: center;
 }
 h1{
     color: #85677d;
@@ -35,15 +36,24 @@ h3 {
     color: #817298;
     font-style: italic;
 }
-th {
-    font-style: italic;
+img.one{
+    align-content: center;
 }
-a{
-    cursor:move;
-}
-form{
-    color: #817298;
-}
-p {
-    color:red;
+table{
+    width: 600px;}
+th, td{
+    padding: 7px 10px 10px 10px;}
+th{
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    font-size: 90%;
+    border-bottom: 2px solid #d268d9;
+    border-top: 1px solid #817298;
+    text-align: left;}
+tr.even{
+    background-color: white;}
+tr:hover{
+    background-color: blanchedalmond;}
+.money{
+    text-align: right;
 }
