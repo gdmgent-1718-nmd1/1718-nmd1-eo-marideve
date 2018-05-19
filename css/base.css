@@ -4,7 +4,7 @@ html, body {
     font-weight: 400;
     letter-spacing: -.022em;
     font-synthesis: none;
-    -moz-font-feature-settings: 'kern';
+    font-feature-settings: 'kern';
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     padding: 0;
