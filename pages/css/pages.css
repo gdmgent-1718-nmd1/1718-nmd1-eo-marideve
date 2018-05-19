@@ -16,3 +16,13 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+h1 {
+    color:pink;
+}
+h2 {
+    color: #d268d9;
+}
+<style>
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+</style> 
