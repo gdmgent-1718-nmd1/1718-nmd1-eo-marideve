@@ -52,8 +52,8 @@ h3 {
     color: green;
 }
 .concurrentieintro {
-    font-family: oswald medium;
-}
+    font-family: oswald medium;}
+
 /* Dit is mijn style guide */
 .table1, .table2 {
     text-align: center;
@@ -61,9 +61,6 @@ h3 {
     padding: 10px;
     background-color: #ffffff;
     font-family: arial regular;
-}
-.table2 {
-    float: right;
 }
 .extralight {
     font-family: oswald extralight;
@@ -103,39 +100,38 @@ th {
 }
 
 * {
-    font-family: oswald regular, oswald extralight;
-    color: black;
-    text-align: center;}
+    font-family: oswald extralight;
+    color: black;}
 #nav, #feature, .article, #footer {
-    background-color: white;
+    background-color: #f5c9df;
     margin-top: 20px;
-    padding: 10px 10px 10px 10px;}
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
 #feature, .article {
     height: 500px;}
-li {
+.lijstvg {
     display: inline;
-    padding: 5px;}
-.form1 {
-    float: left;
+    padding: 5px;
 }
-.form2 {
+.form1, .form2, form4 {
     float: left;
 }
 .form3 {
     float: right;
 }
-.form4 {
-    float: left;
-}
 .table1 {
-    align: center;
+    box-align: center;
 }
 .table2 {
-    float: left;
+    padding: 5px 5px 5px 30px;
 }
 .link1 {
     float: left;
 }
 .link2 {
     float: left;
+}
+.vijf {
+    text-align: center;
 }
