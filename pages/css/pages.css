@@ -18,7 +18,7 @@ img {
 /* Voeg jouw css hieraan toe */
 body {
     background-color: #d2c9df;
-    font-family: oswald light;
+    font-family: oswald extralight;
     font-size: 12pt;
 }
 .info, .link {
@@ -54,21 +54,8 @@ h3 {
 .concurrentieintro {
     font-family: oswald medium;
 }
-table{
-    width: 600px;}
-th, td{
-    padding: 7px 10px 10px 10px;}
-th{
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    font-size: 90%;
-    border-bottom: 2px solid #d268d9;
-    border-top: 1px solid #817298;
-    text-align: left;}
-tr.even{
-    background-color: white;}
-tr:hover{
-    background-color: blanchedalmond;}
-.money{
-    text-align: right;
+/* Dit is mijn style guide */
+.table1, table2 {
+    text-align: center;
+    background-color: white;
 }
