@@ -14,28 +14,28 @@
     width="200" height="80" align="top"/>
 </body>
 
-<table width="200" cellpadding="3" cellspacing="5" class="table1">
+<table width="500" cellpadding="3" cellspacing="5" class="table1">
     <tr>
-        <th width="150"></th>
+        <th width="400"></th>
         <th>Lettertype</th>
         <th>Grootte</th>
         <th width="150"> Regelafstand</th>
     </tr>
     <tr>
         <th>Tekst</th>
-        <td>Oswald ExtraLight</td>
+        <td class="extralight">Oswald ExtraLight</td>
         <td>14 pt</td>
         <td>16 pt</td>
     </tr>
     <tr>
         <th>Logo, tussentitels</th>
-        <td>Oswald Light</td>
+        <td class="light">Oswald Light</td>
         <td>35 pt</td>
         <td>42 pt</td>
     </tr>
     <tr>
         <th>Titels</th>
-        <td>Oswald Regular</td>
+        <td class="regular">Oswald Regular</td>
         <td>45 pt</td>
         <td>54 pt</td>
     </tr>
@@ -48,37 +48,37 @@
         <th>HSL</th>
     </tr>
     <tr>
-        <th>1<sup>ste</sup> kleur</th>
+        <th class="kleur1">1<sup>ste</sup> kleur</th>
         <td>#d268d9</td>
         <td>(210, 104, 217)</td>
         <td>(296, 59.8%, 62.9%)</td>
     </tr>
     <tr>
-        <th>2<sup>de</sup> kleur</th>
+        <th class="kleur2">2<sup>de</sup> kleur</th>
         <td>#d2c9df</td>
         <td>(210, 201, 223)</td>
         <td>(265, 25.6%, 83.1%)</td>
     </tr>
     <tr>
-        <th>3<sup>de</sup> kleur</th>
+        <th class="kleur3">3<sup>de</sup> kleur</th>
         <td>#817298</td>
         <td>(129, 114, 152)</td>
         <td>(264, 15.6%, 52.2%)</td>
     </tr>
     <tr>
-        <th>4<sup>de</sup> kleur</th>
+        <th class="kleur4">4<sup>de</sup> kleur</th>
         <td>#85677d</td>
         <td>(133, 103, 125)</td>
         <td>(316, 12.7%, 46.3%)</td>
     </tr>
     <tr>
-        <th>5<sup>de</sup> kleur</th>
+        <th class="kleur5">5<sup>de</sup> kleur</th>
         <td>#b194f3</td>
         <td>(177, 148, 243)</td>
         <td>(258, 79.8%, 76.7%)</td>
     </tr>
     <tr>
-        <th>6<sup>de</sup> kleur</th>
+        <th class="kleur6">6<sup>de</sup> kleur</th>
         <td>#f5c9df</td>
         <td>(245, 201, 223)</td>
         <td>(330, 68.8%, 87.5%)</td>
@@ -127,4 +127,42 @@
 </body>
 <a href="https://www.delijn.be/nl/" target="_blank"> De lijn </a>
 <a href="http://www.belgianrail.be/nl/Home.aspx" target="_blank"> NMBS</a>
+
+<head>
+    <title>Grid layout</title>
+    <link rel="stylesheet" type="text/css"
+        href="css/960_12_col.css"/>
+    <style>See the right hand page</style>
+</head>
+<body>
+    <div class="container_12 clearfix">
+        <div id="header" class="grid_12">
+            <h1>Logo</h1>
+                <div id="nav">
+                    <ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href"">Services</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </div>
+        </div>
+    </div>
+    <div id="feature" class="grid_12">
+        <p>Feature</p>
+    </div>
+    <div class="article grid_4">
+        <p>Column One</p>
+    </div>
+    <div class="article grid_4">
+        <p>Column Two</p>
+    </div>
+    <div class="article grid_4">
+        <p>Column Three</p>
+    </div>
+    <div id="footer" class="grid_12">
+        <p>Copyright 2011</p>
+    </div><!--.container_12-->
+</body>
 </html>
