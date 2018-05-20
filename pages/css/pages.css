@@ -16,28 +16,43 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
-
 body {
     background-color: #d2c9df;
     font-family: oswald light;
     font-size: 12pt;
+}
+.info, .link {
     text-align: center;
+}
+.NMD {
+    color: #817298;
 }
 h1{
     color: #85677d;
     text-align: center;
+    font-family: oswald regular;
+    font-size: 32pt;
 }
-
 h2{
     color: #d268d9;
     text-align: center;
+    border: 1px solid #d268d9;
+    padding: inherit;
+    font-size: 18pt;
 }
 h3 {
     color: #817298;
-    font-style: italic;
+    font-style: bold;
+    font-size: 18pt;
 }
-img.one{
-    align-content: center;
+.negatief {
+    color: red;
+}
+.positief {
+    color: green;
+}
+.concurrentieintro {
+    font-family: oswald medium;
 }
 table{
     width: 600px;}
