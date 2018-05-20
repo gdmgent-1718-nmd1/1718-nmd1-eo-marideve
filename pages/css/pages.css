@@ -107,11 +107,23 @@ th {
     color: black;
     text-align: center;}
 #nav, #feature, .article, #footer {
-    background-color: #f5c9df;
+    background-color: white;
     margin-top: 20px;
-    padding: 10px 0px 5px 0px;}
+    padding: 10px 10px 10px 10px;}
 #feature, .article {
-    height: 100px;}
+    height: 500px;}
 li {
     display: inline;
     padding: 5px;}
+.form1 {
+    float: left;
+}
+.form2 {
+    float: center;
+}
+.form3 {
+    float: right;
+}
+.table1 {
+    float: right;
+}
