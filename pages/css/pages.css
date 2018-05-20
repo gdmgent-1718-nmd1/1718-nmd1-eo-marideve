@@ -119,11 +119,23 @@ li {
     float: left;
 }
 .form2 {
-    float: center;
+    float: left;
 }
 .form3 {
     float: right;
 }
+.form4 {
+    float: left;
+}
 .table1 {
-    float: right;
+    align: center;
+}
+.table2 {
+    float: left;
+}
+.link1 {
+    float: left;
+}
+.link2 {
+    float: left;
 }
