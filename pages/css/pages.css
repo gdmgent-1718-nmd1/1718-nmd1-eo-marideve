@@ -45,6 +45,11 @@ h3 {
     font-style: bold;
     font-size: 18pt;
 }
+h4 {
+    color: #817298;
+    font-family: oswald;
+    font-size: 20pt;
+}
 .negatief {
     color: red;
 }
@@ -52,86 +57,19 @@ h3 {
     color: green;
 }
 .concurrentieintro {
-    font-family: oswald medium;}
+    font-family: oswald medium;
+}
 
 /* Dit is mijn style guide */
-.table1, .table2 {
-    text-align: center;
-    border: 2px solid #d268d9;
-    padding: 10px;
-    background-color: #ffffff;
-    font-family: arial regular;
+img.one {
+    position: absolute;
+        left: 50px;
+        top: 40px;
+        display: inherit;
 }
-.extralight {
-    font-family: oswald extralight;
-    font-size: 12pt;
-    line-height: 16pt;
-}
-.light {
-    font-family: oswald light;
-    font-size: 35pt;
-    line-height: 42pt;
-}
-.regular {
-    font-family: oswald regular;
-    font-size: 45pt;
-    line-height: 54pt;
-}
-.kleur1 {
-    color: #d268d9;
-}
-.kleur2 {
-    color: #d2c9df;
-}
-.kleur3 {
-    color: #817298;
-}
-.kleur4 {
-    color: #85677d;
-}
-.kleur5 {
-    color: #b194f3;
-}
-.kleur6 {
-    color: #f5c9df;
-}
-th {
-    color: #817298;
-}
-
-* {
-    font-family: oswald extralight;
-    color: black;}
-#nav, #feature, .article, #footer {
-    background-color: #f5c9df;
-    margin-top: 20px;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-}
-#feature, .article {
-    height: 500px;}
-.lijstvg {
-    display: inline;
-    padding: 5px;
-}
-.form1, .form2, form4 {
-    float: left;
-}
-.form3 {
-    float: right;
-}
-.table1 {
-    box-align: center;
-}
-.table2 {
-    padding: 5px 5px 5px 30px;
-}
-.link1 {
-    float: left;
-}
-.link2 {
-    float: left;
-}
-.vijf {
-    text-align: center;
+p.one {
+    border: 5px solid #d268d9;
+    padding: 40px;
+    width: 275px;
+    border-radius: 10px;
 }
