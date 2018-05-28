@@ -17,7 +17,7 @@ img {
 
 /* Voeg jouw css hieraan toe */
 body {
-    background-color: #d2c9df;
+    background-color: whitesmoke;
     font-family: oswald extralight;
     font-size: 12pt;
 }
@@ -47,7 +47,7 @@ h3 {
 }
 h4 {
     color: #817298;
-    font-family: oswald;
+    font-family: oswald extralight;
     font-size: 20pt;
 }
 .negatief {
@@ -63,13 +63,82 @@ h4 {
 /* Dit is mijn style guide */
 img.one {
     position: absolute;
-        left: 50px;
-        top: 40px;
-        display: inherit;
-}
-p.one {
-    border: 5px solid #d268d9;
-    padding: 40px;
+    right: 50px;
+    top: 110px;
+    display: inherit;}
+.kleur1, .kleur2, .kleur3, .kleur4, .kleur5, .kleur6 {
+    padding: 20px;
     width: 275px;
-    border-radius: 10px;
+    border-radius: 10px;}
+.kleur1 {
+    border: 10px solid #d268d9;}
+.kleur2 {
+    border: 10px solid #d2c9df;}
+.kleur3 {
+    border: 10px solid #817298;}
+.kleur4 {
+    border: 10px solid #85677d;}
+.kleur5 {
+    border: 10px solid #b194f3;}
+.kleur6 {
+    border: 10px solid #f5c9df;}
+.lettertype {
+    position: absolute;
+    top: 113px;
+    left: 470px;
+    width: 400px;}
+.lettertype1 {
+    font-family: oswald regular;
+    font-size: 30pt;
+    position: absolute;
+    top: 180px;
+    left: 470px;
+    width: 600px;}
+.lettertype2 {
+    font-family: oswald light;
+    font-size: 20pt;
+    position: absolute;
+    top: 250px;
+    left: 470px;
+    width: 600px;}
+.lettertype3 {
+    font-family: oswald extralight;
+    font-size: 12pt;
+    position: absolute;
+    top:310px;
+    left: 470px;
+    width: 600px;}
+.knoppen {
+    position: absolute;
+    top: 360px;
+    left: 470px;
+    width: 600px;
+}
+.knop1 {
+    position: absolute;
+    top: 440px;
+    left: 470px;
+    width: 600px;
+}
+.knop2 {
+    position: absolute;
+    top:590px;
+    left: 470px;
+    width: 600px;
+}
+.stijlen {
+    position: absolute;
+    top: 660px;
+    left: 470px;
+    width: 600px;
+}
+a:link {
+    color: #d2c9df;
+    text-decoration: none;
+}
+a:visited {
+    color:black;
+}
+a:hover {
+    opacity: 50%;
 }
