@@ -132,13 +132,45 @@ img.one {
     left: 470px;
     width: 600px;
 }
-a:link {
-    color: #d2c9df;
-    text-decoration: none;
+.stijl1, .stijl2, .stijl3, .stijl4, .stijl5 {
+    padding: 0px;
+    width: 100px;
+    border-radius: 5px;
+    text-align: center;
 }
-a:visited {
-    color:black;
+.stijl1 {
+    top: 750px;
+    border: solid #d2c9df;
+    position: absolute;
+    left: 470px;
+    width: 50px;
 }
-a:hover {
+.stijl2 {
+    top: 800px;
+    border: solid #d2c9df;
     opacity: 50%;
+    position: absolute;
+    left: 470px;
+    width: 50px;
+}
+.stijl3 {
+    top: 850px;
+    border: solid #333;
+    position: absolute;
+    left: 470px;
+    width: 50px;
+}
+.stijl4 {
+    top: 900px;
+    border: solid #85677d;
+    position: absolute;
+    left: 470px;
+    width: 50px;
+}
+.stijl5 {
+    top: 950px;
+    border: solid #f5c9df;
+    position: absolute;
+    left: 470px;
+    width: 50px;
 }
