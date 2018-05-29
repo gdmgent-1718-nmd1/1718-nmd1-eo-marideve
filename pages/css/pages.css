@@ -128,7 +128,7 @@ img.one {
 }
 .stijlen {
     position: absolute;
-    top: 660px;
+    top: 680px;
     left: 470px;
     width: 600px;
 }
@@ -140,37 +140,42 @@ img.one {
 }
 .stijl1 {
     top: 750px;
+    background-color: #d2c9df;
     border: solid #d2c9df;
     position: absolute;
     left: 470px;
     width: 50px;
 }
 .stijl2 {
-    top: 800px;
+    top: 750px;
+    background-color: #d2c9df;
     border: solid #d2c9df;
-    opacity: 50%;
+    opacity: 0.5;
     position: absolute;
-    left: 470px;
+    left: 530px;
     width: 50px;
 }
 .stijl3 {
-    top: 850px;
+    top: 750px;
+    background-color: white;
     border: solid #333;
     position: absolute;
-    left: 470px;
+    left: 590px;
     width: 50px;
 }
 .stijl4 {
-    top: 900px;
+    top: 750px;
+    background-color: #85677d;
     border: solid #85677d;
     position: absolute;
-    left: 470px;
+    left: 650px;
     width: 50px;
 }
 .stijl5 {
-    top: 950px;
+    top: 750px;
+    background-color: #f5c9df;
     border: solid #f5c9df;
     position: absolute;
-    left: 470px;
+    left: 710px;
     width: 50px;
 }
